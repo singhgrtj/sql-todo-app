@@ -32,12 +32,10 @@ form {
   display: flex;
   flex-direction:column;
   margin-top: 40px;
-  background-color: #fff;
   border-radius: 10px;
   padding: 8px;
   min-width: 50%;
   height: 400px;
-  overflow: scroll;
 }
 
 .container-todos-title{
@@ -57,7 +55,25 @@ form {
   cursor: pointer;
 }
 
-.done{
-  text-decoration: line-through;
+.todo-div {
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.deleteButton {
+  background-color:red;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+.deleteButton:hover {
+  background-color: rgb(202, 52, 52);
 }
 
